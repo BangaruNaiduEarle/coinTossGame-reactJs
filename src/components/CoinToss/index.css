@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.mainBgContainer {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 50vw;
+}
+@media screen and (max-width: 576px) {
+  .cardContainer {
+    padding: 10px;
+    width: 80vw;
+  }
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 42px;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 26px;
+  }
+}
+.para {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.coinImage {
+  height: 200px;
+}
+.button {
+  background-color: #f9d423;
+  color: #e2a139;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+.paraContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30vw;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .paraContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
